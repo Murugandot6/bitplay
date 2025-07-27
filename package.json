@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "tailwindcss": "^4.1.4"
+  },
+  "scripts": {
+    "dev": "concurrently \"tailwindcss -i ./client/assets/index.css -o ./client/assets/output.css --watch\" \"go run main.go\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
